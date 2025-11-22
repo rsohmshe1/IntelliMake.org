@@ -1,0 +1,104 @@
+<svg width="1400" height="820" viewBox="0 0 1400 820" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">IntelliMake AI-Agent Driven Smart Manufacturing Flow</title>
+  <desc id="desc">Customer intent intake through packing and shipping visualized as connected AI-driven steps.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F7F9FC" />
+      <stop offset="100%" stop-color="#E9F0F8" />
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#51A6EA" />
+      <stop offset="100%" stop-color="#6CD6D0" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#A9B8CA" flood-opacity="0.5" />
+    </filter>
+    <style>
+      .heading { font: 700 40px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #364F70; }
+      .subheading { font: 600 26px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #526786; }
+      .label { font: 600 22px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #2B405C; }
+      .body { font: 500 18px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #566B87; }
+      .note { font: 500 18px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #7A8AA0; }
+    </style>
+  </defs>
+  <rect width="1400" height="820" fill="url(#bg)" rx="18" />
+  <text x="700" y="78" text-anchor="middle" class="heading">IntelliMake</text>
+  <text x="700" y="120" text-anchor="middle" class="subheading">AI-Agent Driven Smart Manufacturing Flow</text>
+
+  <g transform="translate(140 180)">
+    <line x1="40" y1="320" x2="1120" y2="320" stroke="#86ACDC" stroke-width="9" stroke-linecap="round" />
+
+    <g id="step1" transform="translate(40,0)" filter="url(#shadow)">
+      <ellipse cx="0" cy="320" rx="48" ry="48" fill="url(#node)" stroke="#FFFFFF" stroke-width="7" />
+      <circle cx="0" cy="320" r="24" fill="#FFFFFF" />
+      <circle cx="0" cy="320" r="13" fill="#51A6EA" />
+    </g>
+    <g transform="translate(40,0)">
+      <text x="0" y="190" text-anchor="middle" class="label">Customer</text>
+      <text x="0" y="218" text-anchor="middle" class="label">Intent Intake</text>
+      <text x="0" y="380" text-anchor="middle" class="body">User selects or customizes</text>
+      <text x="0" y="404" text-anchor="middle" class="body">product online.</text>
+    </g>
+
+    <g id="step2" transform="translate(272,0)" filter="url(#shadow)">
+      <ellipse cx="0" cy="320" rx="48" ry="48" fill="url(#node)" stroke="#FFFFFF" stroke-width="7" />
+      <circle cx="0" cy="320" r="24" fill="#FFFFFF" />
+      <circle cx="0" cy="320" r="13" fill="#56B2DC" />
+    </g>
+    <g transform="translate(272,0)">
+      <text x="0" y="190" text-anchor="middle" class="label">AI Design</text>
+      <text x="0" y="218" text-anchor="middle" class="label">Generation</text>
+      <text x="0" y="380" text-anchor="middle" class="body">AI agent creates</text>
+      <text x="0" y="404" text-anchor="middle" class="body">manufacturable CAD files.</text>
+    </g>
+
+    <g id="step3" transform="translate(504,0)" filter="url(#shadow)">
+      <ellipse cx="0" cy="320" rx="48" ry="48" fill="url(#node)" stroke="#FFFFFF" stroke-width="7" />
+      <circle cx="0" cy="320" r="24" fill="#FFFFFF" />
+      <circle cx="0" cy="320" r="13" fill="#5AC0CE" />
+    </g>
+    <g transform="translate(504,0)">
+      <text x="0" y="190" text-anchor="middle" class="label">Scheduling &amp;</text>
+      <text x="0" y="218" text-anchor="middle" class="label">Coordination</text>
+      <text x="0" y="380" text-anchor="middle" class="body">AI agents plan resources,</text>
+      <text x="0" y="404" text-anchor="middle" class="body">machines, and timing.</text>
+    </g>
+
+    <g id="step4" transform="translate(736,0)" filter="url(#shadow)">
+      <ellipse cx="0" cy="320" rx="48" ry="48" fill="url(#node)" stroke="#FFFFFF" stroke-width="7" />
+      <circle cx="0" cy="320" r="24" fill="#FFFFFF" />
+      <circle cx="0" cy="320" r="13" fill="#63CCC3" />
+    </g>
+    <g transform="translate(736,0)">
+      <text x="0" y="190" text-anchor="middle" class="label">Robotic</text>
+      <text x="0" y="218" text-anchor="middle" class="label">Execution</text>
+      <text x="0" y="380" text-anchor="middle" class="body">Cobots &amp; robots execute</text>
+      <text x="0" y="404" text-anchor="middle" class="body">production autonomously.</text>
+    </g>
+
+    <g id="step5" transform="translate(968,0)" filter="url(#shadow)">
+      <ellipse cx="0" cy="320" rx="48" ry="48" fill="url(#node)" stroke="#FFFFFF" stroke-width="7" />
+      <circle cx="0" cy="320" r="24" fill="#FFFFFF" />
+      <circle cx="0" cy="320" r="13" fill="#69D8BB" />
+    </g>
+    <g transform="translate(968,0)">
+      <text x="0" y="190" text-anchor="middle" class="label">Quality &amp;</text>
+      <text x="0" y="218" text-anchor="middle" class="label">Traceability</text>
+      <text x="0" y="380" text-anchor="middle" class="body">AI logs data for product,</text>
+      <text x="0" y="404" text-anchor="middle" class="body">legal trace, and audit.</text>
+    </g>
+
+    <g id="step6" transform="translate(1200,0)" filter="url(#shadow)">
+      <ellipse cx="0" cy="320" rx="48" ry="48" fill="url(#node)" stroke="#FFFFFF" stroke-width="7" />
+      <circle cx="0" cy="320" r="24" fill="#FFFFFF" />
+      <circle cx="0" cy="320" r="13" fill="#70E4AD" />
+    </g>
+    <g transform="translate(1200,0)">
+      <text x="0" y="190" text-anchor="middle" class="label">Pack &amp; Ship</text>
+      <text x="0" y="380" text-anchor="middle" class="body">Automated labeling,</text>
+      <text x="0" y="404" text-anchor="middle" class="body">packaging, and notification.</text>
+    </g>
+  </g>
+
+  <text x="700" y="780" text-anchor="middle" class="note">© IntelliMake 2024</text>
+</svg>

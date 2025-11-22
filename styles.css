@@ -361,7 +361,7 @@ a {
 
 .section-header {
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .section-header h2 {
@@ -369,107 +369,36 @@ a {
   font-size: clamp(24px, 4vw, 32px);
 }
 
-.flow-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-}
-
-.flow-card {
-  background: white;
-  border-radius: var(--radius);
-  padding: 16px;
-  border: 1px solid var(--border);
-  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06);
-}
-
-.flow-card h3 {
-  margin: 10px 0 6px;
+.section-lead {
+  max-width: 760px;
+  margin: 10px auto 0;
+  color: var(--muted);
   font-size: 16px;
+  line-height: 1.6;
 }
 
-.flow-card p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 14px;
-}
-
-.icon-circle {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.18), rgba(45, 212, 191, 0.18));
-  display: grid;
-  place-items: center;
-  color: var(--brand-dark);
-  font-size: 18px;
-}
-
-.flow-divider {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  justify-content: center;
-  margin: 28px 0 24px;
-}
-
-.divider-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--brand), #2dd4bf);
-}
-
-.divider-line {
-  flex: 1;
-  max-width: 520px;
-  height: 3px;
-  background: linear-gradient(90deg, rgba(59, 130, 246, 0.6), rgba(45, 212, 191, 0.6));
-  border-radius: 2px;
-}
-
-.flow-lanes {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.lane {
+.flow-figure {
   background: white;
   border-radius: var(--radius);
-  padding: 20px;
+  padding: 18px;
   border: 1px solid var(--border);
-  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
 }
 
-.lane-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 12px;
+.flow-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: 0 16px 30px rgba(15, 23, 42, 0.06);
 }
 
-.lane-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
-}
-
-.lane-card {
-  background: #f8fafc;
-  border: 1px dashed var(--border);
-  border-radius: 12px;
-  padding: 12px;
-}
-
-.lane-card h4 {
-  margin: 0 0 6px;
-  font-size: 15px;
-}
-
-.lane-card p {
-  margin: 0;
+.figure-caption {
+  text-align: center;
   color: var(--muted);
-  font-size: 13px;
+  margin: 12px 0 0;
+  font-weight: 600;
 }
 
 .site-footer {
