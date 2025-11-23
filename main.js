@@ -16,12 +16,14 @@ async function injectPartial(id, file) {
 
 function attachNavToggle(scope) {
   const toggle = scope.querySelector('.nav-toggle');
-  const nav = scope.querySelector('.main-nav');
+  const nav = scope.querySelector('[data-nav]');
   if (!toggle || !nav) return;
 
   toggle.addEventListener('click', () => {
-    nav.classList.toggle('open');
-    toggle.classList.toggle('open');
+    const isHidden = nav.classList.toggle('hidden');
+    const expanded = !isHidden;
+    toggle.setAttribute('aria-expanded', expanded);
+    toggle.classList.toggle('open', expanded);
   });
 }
 
