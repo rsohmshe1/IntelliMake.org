@@ -1,13 +1,17 @@
-<header class="site-header">
-  <div class="nav-container">
-    <div class="brand">
-      <span class="brand-mark">iM</span>
-      <div class="brand-text">
-        <span class="brand-title">IntelliMake</span>
-        <span class="brand-subtitle">AI Agent Driven Manufacturing</span>
+<header class="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/70">
+  <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-4 lg:grid lg:grid-cols-[auto,1fr,auto] lg:items-center lg:gap-6">
+    <div class="flex items-center gap-3">
+      <span class="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-sky-500 to-teal-400 text-lg font-bold text-white shadow-lg">iM</span>
+      <div class="leading-tight">
+        <p class="text-base font-semibold text-slate-900">IntelliMake</p>
+        <p class="text-xs font-medium text-slate-500">AI Agent Driven Manufacturing</p>
       </div>
     </div>
-    <nav class="main-nav" aria-label="Primary">
+    <nav
+      class="hidden w-full flex-col gap-3 border-t border-slate-200 pt-4 text-sm font-semibold text-slate-600 lg:flex lg:w-auto lg:flex-row lg:items-center lg:justify-center lg:border-0 lg:pt-0"
+      aria-label="Primary"
+      data-nav
+    >
       <a href="#" class="nav-link">Home</a>
       <a href="#research" class="nav-link">Research</a>
       <a href="#factory" class="nav-link">Factory</a>
@@ -15,13 +19,19 @@
       <a href="#about" class="nav-link">About</a>
       <a href="#news" class="nav-link">News</a>
     </nav>
-    <div class="header-actions">
-      <button class="btn btn-ghost">Get Involved</button>
-      <button class="btn btn-primary">Contact</button>
-      <button class="nav-toggle" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
+    <div class="flex items-center justify-between gap-2 lg:justify-end">
+      <div class="hidden items-center gap-2 lg:flex">
+        <a class="btn-ghost" href="#partnerships">Get Involved</a>
+        <a class="btn-primary" href="#contact">Contact</a>
+      </div>
+      <button
+        class="nav-toggle inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 shadow-sm transition hover:border-sky-400 hover:text-sky-600 lg:hidden"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span class="nav-toggle-line line-1"></span>
+        <span class="nav-toggle-line line-2"></span>
+        <span class="nav-toggle-line line-3"></span>
       </button>
     </div>
   </div>
