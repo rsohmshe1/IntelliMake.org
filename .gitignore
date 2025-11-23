@@ -3,3 +3,5 @@ node_modules
 npm-debug.log*
 pnpm-lock.yaml
 .vercel
+# Ensure legacy mission/vision PNG isn't reintroduced during merges
+assets/IntelliMake_MissionVision.png
