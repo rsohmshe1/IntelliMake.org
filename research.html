@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntelliMake | Research</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEpi1HFLJ0QeflKqNf1D1R9fJ4r3r0E8f9N0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/tailwind.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <main>
+      <section class="relative overflow-hidden px-6 pb-12 pt-10 lg:pb-14 lg:pt-14" aria-labelledby="research-hero-title">
+        <div class="hero-ambient" aria-hidden="true"></div>
+        <div class="relative mx-auto flex max-w-6xl flex-col-reverse gap-10 lg:grid lg:grid-cols-2 lg:items-center">
+          <div class="flex flex-col gap-4">
+            <p class="eyebrow">Applied Research</p>
+            <h1 id="research-hero-title" class="text-3xl font-bold text-slate-900 sm:text-4xl lg:text-5xl">
+              Bridging lab breakthroughs to production floors.
+            </h1>
+            <p class="text-lg leading-relaxed text-slate-600">
+              We combine advanced AI planning, control theory, and robotics research with real manufacturing cells to validate
+              new approaches under production constraints.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <a class="btn-primary" href="#tracks">Explore research tracks</a>
+              <a class="btn-ghost" href="index.html#contact">Propose a collaboration</a>
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="glass-card">
+              <img
+                class="block w-full rounded-2xl border border-slate-200 shadow-2xl ring-1 ring-slate-100"
+                src="assets/IntelliMake_Research.svg"
+                alt="Infographic showing IntelliMake research domains and experimental loop"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-6 pb-16" id="tracks" aria-labelledby="tracks-title">
+        <div class="text-center">
+          <p class="eyebrow">Research Focus</p>
+          <h2 id="tracks-title" class="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">Where we push the boundaries</h2>
+          <p class="mx-auto mt-3 max-w-3xl text-lg leading-relaxed text-slate-600">
+            Our teams prototype on real lines, measuring resilience, throughput, and quality improvements with every iterated
+            control strategy and agentic workflow.
+          </p>
+        </div>
+
+        <div class="mt-10 grid gap-6 lg:grid-cols-3">
+          <div class="glass-card h-full border border-slate-200 p-6 shadow-lg">
+            <div class="flex items-center gap-3 text-sky-600">
+              <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-50"><i class="fa-solid fa-network-wired"></i></span>
+              <p class="text-sm font-semibold uppercase tracking-wide">Multi-agent planning</p>
+            </div>
+            <h3 class="mt-3 text-xl font-semibold text-slate-900">Coordinated autonomy</h3>
+            <p class="mt-2 text-slate-600">
+              Hierarchical agents schedule and route jobs across cells, balancing resource constraints while adapting to live
+              telemetry.
+            </p>
+          </div>
+
+          <div class="glass-card h-full border border-slate-200 p-6 shadow-lg">
+            <div class="flex items-center gap-3 text-teal-600">
+              <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-teal-50"><i class="fa-solid fa-robot"></i></span>
+              <p class="text-sm font-semibold uppercase tracking-wide">Adaptive robotics</p>
+            </div>
+            <h3 class="mt-3 text-xl font-semibold text-slate-900">Control with feedback</h3>
+            <p class="mt-2 text-slate-600">
+              We test new motion planning, force control, and vision-guided policies that stay stable under part variability and
+              changing fixturing.
+            </p>
+          </div>
+
+          <div class="glass-card h-full border border-slate-200 p-6 shadow-lg">
+            <div class="flex items-center gap-3 text-indigo-600">
+              <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-50"><i class="fa-solid fa-chart-line"></i></span>
+              <p class="text-sm font-semibold uppercase tracking-wide">Realtime quality</p>
+            </div>
+            <h3 class="mt-3 text-xl font-semibold text-slate-900">Inline assurance</h3>
+            <p class="mt-2 text-slate-600">
+              Streaming inspection and self-calibration loops catch drift early, feeding back into scheduling to keep production
+              on track.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-6 pb-16" aria-labelledby="collab-title">
+        <div class="glass-card relative overflow-hidden border border-slate-200 px-6 py-10 shadow-xl lg:px-12 lg:py-12">
+          <div class="absolute inset-0 bg-gradient-to-r from-sky-50 via-white to-teal-50" aria-hidden="true"></div>
+          <div class="relative grid gap-8 lg:grid-cols-[2fr,1fr] lg:items-center">
+            <div class="space-y-3">
+              <p class="eyebrow">Collaboration</p>
+              <h2 id="collab-title" class="text-3xl font-bold text-slate-900 sm:text-4xl">Bring your ideas to the line</h2>
+              <p class="text-lg leading-relaxed text-slate-600">
+                Share your research questions and datasets—we'll map them to our hardware, run controlled experiments, and
+                publish results together.
+              </p>
+            </div>
+            <div class="flex flex-col gap-3 rounded-2xl border border-slate-200 bg-white/80 p-6 text-sm font-semibold text-slate-700 shadow-lg">
+              <div class="flex items-center gap-3">
+                <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-teal-400 text-white shadow-sm">
+                  <i class="fa-solid fa-flask-vial"></i>
+                </span>
+                <div>
+                  <p class="text-base font-bold text-slate-900">Test on production hardware</p>
+                  <p class="text-slate-600">Robots, adaptive fixtures, and sensors tuned for fast iteration.</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-teal-400 text-white shadow-sm">
+                  <i class="fa-solid fa-database"></i>
+                </span>
+                <div>
+                  <p class="text-base font-bold text-slate-900">Rich telemetry loops</p>
+                  <p class="text-slate-600">Capture synchronized datasets across control, vision, and QA.</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-teal-400 text-white shadow-sm">
+                  <i class="fa-solid fa-pen-nib"></i>
+                </span>
+                <div>
+                  <p class="text-base font-bold text-slate-900">Co-author outcomes</p>
+                  <p class="text-slate-600">Publish learnings, benchmarks, and best practices together.</p>
+                </div>
+              </div>
+              <a class="btn-primary" href="index.html#contact">Start a joint project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
