@@ -22,66 +22,87 @@
   <body>
     <div id="header"></div>
     <main class="bg-white">
-      <section class="px-6 pb-14 pt-12" aria-labelledby="about-hero-title">
-        <div class="mx-auto max-w-5xl space-y-6 text-center">
-          <p class="eyebrow">About IntelliMake</p>
-          <h1 id="about-hero-title" class="text-3xl font-bold text-slate-900 sm:text-4xl">
-            Autonomous manufacturing, explained simply.
-          </h1>
-          <p class="text-lg leading-relaxed text-slate-600">
-            We run a living lab where AI agents, robotics, and digital twins work together to keep production lines adaptive. Our
-            focus is straightforward: build reliable, self-optimizing factories while keeping people in control.
-          </p>
-          <div class="flex flex-wrap justify-center gap-3">
-            <span class="rounded-full bg-sky-50 px-4 py-2 text-sm font-medium text-sky-700">AI coordination</span>
-            <span class="rounded-full bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-700">Digital twins</span>
-            <span class="rounded-full bg-amber-50 px-4 py-2 text-sm font-medium text-amber-700">Human oversight</span>
+      <section class="bg-slate-50 px-6 py-16" aria-labelledby="about-hero-title">
+        <div class="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row md:items-center md:gap-12">
+          <div class="space-y-4 md:w-1/2">
+            <p class="eyebrow">About IntelliMake</p>
+            <h1 id="about-hero-title" class="text-3xl font-bold text-slate-900 sm:text-4xl">
+              Research Hub &amp; Factory initiative at Wayne State University
+            </h1>
+            <p class="text-lg leading-relaxed text-slate-700">
+              IntelliMake links campus research with hands-on factory learning. We prototype autonomous production lines with
+              AI agents, robotics, and digital twins while keeping operators in the loop.
+            </p>
+            <p class="text-base leading-relaxed text-slate-600">
+              The hub connects faculty, students, and industry partners so ideas move quickly from lab to line.
+            </p>
           </div>
-        </div>
-      </section>
-
-      <section class="bg-slate-50 px-6 py-14" aria-labelledby="mission-title">
-        <div class="mx-auto max-w-5xl space-y-6 text-center">
-          <p class="eyebrow">Mission &amp; Vision</p>
-          <h2 id="mission-title" class="text-2xl font-semibold text-slate-900 sm:text-3xl">Our intent at a glance.</h2>
-          <p class="text-base leading-relaxed text-slate-700">
-            One graphic tells the story: practical autonomy that pairs adaptive systems with the people who guide them.
-          </p>
-          <figure class="overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+          <figure class="md:w-1/2">
             <img
               src="assets/IntelliMake_MissionVision.svg"
-              alt="Infographic showing IntelliMake's mission to deliver practical autonomy with agents, digital twins, and human oversight, and vision for adaptive, people-led factories."
-              class="mx-auto h-full w-full max-w-4xl object-contain"
+              alt="Infographic describing IntelliMake's mission and vision for adaptive, people-led factories."
+              class="w-full rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
               loading="lazy"
             />
           </figure>
         </div>
       </section>
 
-      <section class="px-6 py-14" aria-labelledby="pillars-title">
-        <div class="mx-auto max-w-5xl space-y-3 text-center">
-          <p class="eyebrow">What We Focus On</p>
-          <h2 id="pillars-title" class="text-2xl font-semibold text-slate-900 sm:text-3xl">Three pillars, no clutter</h2>
-          <p class="text-base leading-relaxed text-slate-700">
-            Everything we do ladders up to clear outcomes: coordinated automation, trusted simulations, and respectful
-            collaboration between people and machines.
-          </p>
-        </div>
-        <div class="mx-auto mt-8 grid max-w-5xl gap-6 md:grid-cols-3">
-          <div class="rounded-2xl border border-slate-200 bg-white p-5 text-left shadow-sm">
-            <p class="text-sm font-semibold uppercase tracking-wide text-slate-500">Coordination</p>
-            <h3 class="mt-2 text-xl font-semibold text-slate-900">Agents that keep pace</h3>
-            <p class="mt-2 text-sm leading-relaxed text-slate-700">Scheduling, routing, and monitoring run in real time so teams can focus on improvements.</p>
+      <section class="px-6 py-16" aria-labelledby="team-title">
+        <div class="mx-auto max-w-6xl">
+          <div class="text-center">
+            <p class="eyebrow">People</p>
+            <h2 id="team-title" class="text-2xl font-semibold text-slate-900 sm:text-3xl">
+              Leadership &amp; faculty researchers
+            </h2>
+            <p class="mt-3 text-base leading-relaxed text-slate-600">
+              Photo roster coming soon. These cards will showcase the people guiding IntelliMake.
+            </p>
           </div>
-          <div class="rounded-2xl border border-slate-200 bg-white p-5 text-left shadow-sm">
-            <p class="text-sm font-semibold uppercase tracking-wide text-slate-500">Simulation</p>
-            <h3 class="mt-2 text-xl font-semibold text-slate-900">Decisions with proof</h3>
-            <p class="mt-2 text-sm leading-relaxed text-slate-700">Digital twins preview changes, helping us ship updates without surprises.</p>
-          </div>
-          <div class="rounded-2xl border border-slate-200 bg-white p-5 text-left shadow-sm">
-            <p class="text-sm font-semibold uppercase tracking-wide text-slate-500">Collaboration</p>
-            <h3 class="mt-2 text-xl font-semibold text-slate-900">People in control</h3>
-            <p class="mt-2 text-sm leading-relaxed text-slate-700">Interfaces and alerts keep operators informed and empowered at every step.</p>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div class="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div class="flex h-28 w-28 items-center justify-center rounded-full bg-slate-100 text-slate-400">
+                <i class="fa-solid fa-user text-3xl"></i>
+              </div>
+              <p class="mt-4 text-lg font-semibold text-slate-900">Name Placeholder</p>
+              <p class="text-sm text-slate-600">Title or role</p>
+            </div>
+            <div class="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div class="flex h-28 w-28 items-center justify-center rounded-full bg-slate-100 text-slate-400">
+                <i class="fa-solid fa-user text-3xl"></i>
+              </div>
+              <p class="mt-4 text-lg font-semibold text-slate-900">Name Placeholder</p>
+              <p class="text-sm text-slate-600">Title or role</p>
+            </div>
+            <div class="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div class="flex h-28 w-28 items-center justify-center rounded-full bg-slate-100 text-slate-400">
+                <i class="fa-solid fa-user text-3xl"></i>
+              </div>
+              <p class="mt-4 text-lg font-semibold text-slate-900">Name Placeholder</p>
+              <p class="text-sm text-slate-600">Title or role</p>
+            </div>
+            <div class="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div class="flex h-28 w-28 items-center justify-center rounded-full bg-slate-100 text-slate-400">
+                <i class="fa-solid fa-user text-3xl"></i>
+              </div>
+              <p class="mt-4 text-lg font-semibold text-slate-900">Name Placeholder</p>
+              <p class="text-sm text-slate-600">Title or role</p>
+            </div>
+            <div class="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div class="flex h-28 w-28 items-center justify-center rounded-full bg-slate-100 text-slate-400">
+                <i class="fa-solid fa-user text-3xl"></i>
+              </div>
+              <p class="mt-4 text-lg font-semibold text-slate-900">Name Placeholder</p>
+              <p class="text-sm text-slate-600">Title or role</p>
+            </div>
+            <div class="flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div class="flex h-28 w-28 items-center justify-center rounded-full bg-slate-100 text-slate-400">
+                <i class="fa-solid fa-user text-3xl"></i>
+              </div>
+              <p class="mt-4 text-lg font-semibold text-slate-900">Name Placeholder</p>
+              <p class="text-sm text-slate-600">Title or role</p>
+            </div>
           </div>
         </div>
       </section>
