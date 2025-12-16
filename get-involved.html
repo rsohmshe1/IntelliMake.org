@@ -51,7 +51,7 @@
         <div class="text-center">
           <h2 id="form-title" class="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">Contact Us</h2>
         </div>
-        <form action="mailto:Raja.Sohmshetty@Wayne.edu" method="post" enctype="text/plain" class="mt-10 space-y-4 rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-xl">
+        <form id="contact-form" class="mt-10 space-y-4 rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-xl">
             <div>
                 <label for="name" class="block text-sm font-medium text-slate-700">Name</label>
                 <input type="text" name="name" id="name" class="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" required>
@@ -74,9 +74,47 @@
                 </button>
             </div>
         </form>
+        <div id="form-status" class="mt-4 text-center"></div>
       </section>
     </main>
     <div id="footer"></div>
     <script src="main.js"></script>
+    <script>
+      const form = document.getElementById('contact-form');
+      const formStatus = document.getElementById('form-status');
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const formData = new FormData(form);
+        const data = Object.fromEntries(formData.entries());
+
+        formStatus.textContent = 'Sending...';
+
+        try {
+          const response = await fetch('/api/send-email', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+          });
+
+          if (response.ok) {
+            form.reset();
+            formStatus.textContent = 'Message sent successfully!';
+            formStatus.style.color = 'green';
+          } else {
+            const result = await response.json();
+            formStatus.textContent = result.error || 'An error occurred.';
+            formStatus.style.color = 'red';
+          }
+        } catch (error) {
+          console.error('Error submitting form:', error);
+          formStatus.textContent = 'An error occurred while sending the message.';
+          formStatus.style.color = 'red';
+        }
+      });
+    </script>
   </body>
 </html>

@@ -1,0 +1,174 @@
+Starting up http-server, serving ./
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://127.0.0.1:8080
+  http://10.88.0.3:8080
+Hit CTRL-C to stop the server
+
+[Mon Dec 15 2025 18:12:20 GMT+0000 (Coordinated Universal Time)]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+(node:6891) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Mon Dec 15 2025 18:12:22 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:15:36 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:18:21 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:18:53 GMT+0000 (Coordinated Universal Time)]  "GET /index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:25:07 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:30:19 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:30:19 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_MissionVision.png" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:45:21 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:45:21 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_SmartMfg_Flow.png" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:48:22 GMT+0000 (Coordinated Universal Time)]  "GET /index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:50:15 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:52:53 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:52:53 GMT+0000 (Coordinated Universal Time)]  "GET /assets/tailwind.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:52:53 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_Partnerships.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:52:53 GMT+0000 (Coordinated Universal Time)]  "GET /main.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:52:53 GMT+0000 (Coordinated Universal Time)]  "GET /header.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:52:53 GMT+0000 (Coordinated Universal Time)]  "GET /footer.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:52:54 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_Logo.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:53:33 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:53:41 GMT+0000 (Coordinated Universal Time)]  "GET /partnerships.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:53:43 GMT+0000 (Coordinated Universal Time)]  "GET /research.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 18:53:43 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_Research.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 19:11:59 GMT+0000 (Coordinated Universal Time)]  "GET /main.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 19:11:59 GMT+0000 (Coordinated Universal Time)]  "GET /assets/tailwind.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 19:11:59 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_Logo.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 19:12:02 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+npm warn exec The following package was not found and will be installed: serve@14.2.5
+ INFO  Accepting connections at http://localhost:8080
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 GET /
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 Returned 200 in 17 ms
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 GET /
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 GET /assets/tailwind.css
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 GET /assets/IntelliMake_HomePage_RightArt.svg
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 GET /assets/ai-smart-manufacturing-flow.svg
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 Returned 200 in 4 ms
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 Returned 200 in 20 ms
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 Returned 200 in 22 ms
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 GET /assets/IntelliMake_HomePage_RightArt.svg
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 GET /assets/ai-smart-manufacturing-flow.svg
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 GET /assets/tailwind.css
+ HTTP  12/15/2025 10:19:05 PM 127.0.0.1 Returned 304 in 1 ms
+ HTTP  12/15/2025 10:19:06 PM 127.0.0.1 GET /main.js
+ HTTP  12/15/2025 10:19:06 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  12/15/2025 10:19:06 PM 127.0.0.1 GET /main.js
+ HTTP  12/15/2025 10:19:06 PM 127.0.0.1 Returned 304 in 1 ms
+Starting up http-server, serving ./
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://127.0.0.1:8083
+  http://10.88.0.3:8083
+Hit CTRL-C to stop the server
+
+[Mon Dec 15 2025 22:27:12 GMT+0000 (Coordinated Universal Time)]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+(node:12508) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Mon Dec 15 2025 22:27:12 GMT+0000 (Coordinated Universal Time)]  "GET /assets/tailwind.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:27:12 GMT+0000 (Coordinated Universal Time)]  "GET /main.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:27:12 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_HomePage_RightArt.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:27:12 GMT+0000 (Coordinated Universal Time)]  "GET /assets/ai-smart-manufacturing-flow.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8080
+}
+
+Node.js v20.19.1
+Starting up http-server, serving ./
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://127.0.0.1:8080
+  http://10.88.0.3:8080
+Hit CTRL-C to stop the server
+
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+(node:1127) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /assets/tailwind.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /main.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /assets/ai-smart-manufacturing-flow.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_HomePage_RightArt.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /header.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /footer.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /favicon.ico" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /favicon.ico" Error (404): "Not found"
+[Mon Dec 15 2025 22:45:51 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_Logo.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:45:56 GMT+0000 (Coordinated Universal Time)]  "GET /research.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:45:56 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_ResearchPillars.png" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:46:19 GMT+0000 (Coordinated Universal Time)]  "GET /index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:47:54 GMT+0000 (Coordinated Universal Time)]  "GET /index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:47:54 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_WhyNow_WhiteBG.png" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:57:52 GMT+0000 (Coordinated Universal Time)]  "GET /about.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:57:52 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_MissionVision.png" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:57:52 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_Partnerships.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:58:00 GMT+0000 (Coordinated Universal Time)]  "GET /partnerships.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:58:01 GMT+0000 (Coordinated Universal Time)]  "GET /factory.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 22:58:02 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_Phase1_Factory.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:07:10 GMT+0000 (Coordinated Universal Time)]  "GET /Get_Involved.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:07:10 GMT+0000 (Coordinated Universal Time)]  "GET /Get_Involved.html" Error (404): "Not found"
+[Mon Dec 15 2025 23:07:20 GMT+0000 (Coordinated Universal Time)]  "GET /get_involved.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:07:20 GMT+0000 (Coordinated Universal Time)]  "GET /get_involved.html" Error (404): "Not found"
+[Mon Dec 15 2025 23:07:30 GMT+0000 (Coordinated Universal Time)]  "GET /get-involved.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:10:42 GMT+0000 (Coordinated Universal Time)]  "GET /get-involved.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:11:43 GMT+0000 (Coordinated Universal Time)]  "GET /partnerships.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:11:54 GMT+0000 (Coordinated Universal Time)]  "GET /index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:12:39 GMT+0000 (Coordinated Universal Time)]  "GET /get-involved.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:12:39 GMT+0000 (Coordinated Universal Time)]  "GET /assets/tailwind.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:12:39 GMT+0000 (Coordinated Universal Time)]  "GET /main.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:12:39 GMT+0000 (Coordinated Universal Time)]  "GET /assets/IntelliMake_Partnerships.svg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:12:42 GMT+0000 (Coordinated Universal Time)]  "GET /footer.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:12:42 GMT+0000 (Coordinated Universal Time)]  "GET /header.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:12:42 GMT+0000 (Coordinated Universal Time)]  "GET /favicon.ico" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[Mon Dec 15 2025 23:12:42 GMT+0000 (Coordinated Universal Time)]  "GET /favicon.ico" Error (404): "Not found"
