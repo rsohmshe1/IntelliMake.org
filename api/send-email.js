@@ -19,6 +19,8 @@ module.exports = async (request, response) => {
       html: `<p>You have a new message from <strong>${name}</strong> (${email}):</p><p>${message}</p>`,
     });
 
+    console.log('Response from Resend:', data);
+
     return response.status(200).json(data);
   } catch (error) {
     console.error('Error sending email:', error);
